@@ -1,0 +1,15 @@
+//Utils
+
+//Polymer Import
+//  @param href: file to import without .html
+mixin pi(href)
+  link(rel="import",href=href + ".html")
+
+//Polymer Element
+// @param name: name of element
+mixin pe(name)
+  dom-module(id=name)&attributes(attributes)
+    template
+      block
+
+  script(src=name + ".js")
