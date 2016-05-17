@@ -1,2 +1,2 @@
-# polymer-jade
-Jade mixins for polymer
+# polymer-pug
+Pug mixins for polymer
